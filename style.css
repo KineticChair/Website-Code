@@ -1,0 +1,155 @@
+p, h2 {
+    display: inline-block;
+    font-family: arial;
+}
+
+/* Header */
+#header {
+    background: #000000;
+    font-family: verdana;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#logo h1 {
+    color: #CCFFCC;
+    display: inline-block;
+    padding: 0em 0.5em;
+    text-transform: uppercase;
+}
+
+#nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#nav a {
+    color: #CCFFCC;
+    display: inline-block;
+    padding: 1.75em 1.75em;
+    text-decoration: none;
+}
+
+/* Footer */
+
+#feedback p{
+    display: block;
+}
+
+#copyright {
+    background: #000000;
+    color: #FFFFFF;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.wrapper1 {
+    padding-top: 5em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+.wrapperA {
+    padding-top: 6em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 15em; /*for now, can change to 1em once there is more data to be displayed*/
+}
+
+.garden {
+    padding-top: 5em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+.garden h1 {
+    text-decoration: underline;
+}
+
+body {
+    background: #FFFFFF; /*can try #02C39A*/
+    font-family: arial;
+}
+
+/* Table */
+
+table {
+    width: 100%;
+}
+
+table td {
+    background-color: #CCFFCC;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+table.display td {
+    text-align: center;
+    padding-top: 0em;
+    padding-bottom: 0.5em;
+    background-color: #FFFFFF;
+}
+
+table.about td {
+    text-align: center;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    background-color: #FFFFFF;
+}
+
+/*Tab*/
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tabcontent {
+    display: none;
+}
+
+/*Content*/
+body.subpage {
+    padding-top: 3.25em;
+}
+
+/*Box with Text*/
+.box-text {
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+a.box-text {
+    text-decoration: none;
+}
+
+p.box-text {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+}
+
+img.weather {
+    height: 115px;
+    width: 115px;
+    line-height: 100px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1em;
+}
